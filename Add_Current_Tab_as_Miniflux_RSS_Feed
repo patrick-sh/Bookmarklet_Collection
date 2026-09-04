@@ -1,0 +1,1 @@
+javascript:location.href='https://{YOUR_MINIFLUX_BASE_URL}/bookmarklet?uri='+encodeURIComponent(window.location.href)

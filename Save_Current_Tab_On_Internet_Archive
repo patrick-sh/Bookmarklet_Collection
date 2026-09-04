@@ -1,0 +1,1 @@
+javascript:(function(){var w=window.open('about:blank');var f=w.document.createElement('form');f.method='POST';f.action='https://web.archive.org/save/';var i=w.document.createElement('input');i.type='hidden';i.name='url';i.value=location.href;f.appendChild(i);w.document.body.appendChild(f);f.submit();})();

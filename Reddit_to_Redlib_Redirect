@@ -1,0 +1,1 @@
+javascript:void(location.href = "https://redlib.catsarch.com" + location.pathname + location.search + location.hash);

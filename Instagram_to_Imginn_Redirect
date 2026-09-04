@@ -1,0 +1,1 @@
+javascript:(function(){   var url = window.location.href;   if (url.indexOf('instagram.com') !== -1) {     var newUrl = url.replace('instagram.com', 'imginn.com');     newUrl = newUrl.replace(/[?&]hl=[^&]+/g, '');     newUrl = newUrl.replace(/\?&/, '?').replace(/\?$/, '');     window.location.href = newUrl;   } })();
