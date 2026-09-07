@@ -1,0 +1,1 @@
+javascript:(function(){ const url = window.location.href; const newUrl = url.replace(/(x\.com|twitter\.com)/, "xcancel.com"); window.location.href = newUrl; })();
